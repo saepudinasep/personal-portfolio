@@ -65,13 +65,25 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
               <div className='social-icon'>
-                <a href='#'>
+                <a
+                  href='https://www.linkedin.com/in/asep-saepudin-9254a3176/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={navIcon1} alt='' />
                 </a>
-                <a href='#'>
+                <a
+                  href='https://www.facebook.com/asepspd.co.id'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={navIcon2} alt='' />
                 </a>
-                <a href='#'>
+                <a
+                  href='https://www.instagram.com/asepspd.png/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <img src={navIcon3} alt='' />
                 </a>
               </div>
